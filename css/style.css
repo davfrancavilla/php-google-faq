@@ -5,9 +5,16 @@
     font-family: sans-serif;
 }
 
-nav .top,
-nav .bottom {
-    padding-left: 20px;
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+nav .top {
+    margin-left: 20px;
 }
 
 nav .top {
@@ -29,6 +36,7 @@ nav .top span {
 nav .bottom {
     border-bottom: 1px solid #606469;
     color: #606469;
+    padding-left: 20px;
 }
 
 nav .bottom ul li {
@@ -49,6 +57,7 @@ nav .bottom ul li:last-child{
 
 main {
     padding-top: 40px;
+    margin-top: 100px;
 }
 
 .question {
